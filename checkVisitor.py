@@ -35,7 +35,7 @@ if ret:
             print(f"ROOM OWNER. DOOR UNLOCKED. Saved as {visitor_path}")
             # You can add the code to unlock the door here
         else:
-            print(f"INTRUDER DETECTED. Image saved as {visitor_path}")
+            print(f"Visitor DETECTED. Image saved as {visitor_path}")
             # Notify the owner and keep the door locked
     else:
         print("No face detected in the captured image.")
