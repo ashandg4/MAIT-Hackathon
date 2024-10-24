@@ -1,7 +1,7 @@
 import cv2
 
 # Initialize the camera
-cam = cv2.VideoCapture(0)
+cam = cv2.VideoCapture(1)
 ret, frame = cam.read()
 
 if ret:

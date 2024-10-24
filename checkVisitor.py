@@ -7,7 +7,7 @@ owner_image = face_recognition.load_image_file("room_owner.jpg")
 owner_encoding = face_recognition.face_encodings(owner_image)[0]
 
 # Capture the picture of the person trying to unlock the door
-cam = cv2.VideoCapture(0)
+cam = cv2.VideoCapture(1)
 ret, frame = cam.read()
 
 if ret:
